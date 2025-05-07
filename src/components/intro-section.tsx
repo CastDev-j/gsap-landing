@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react"
 import { ArrowDown } from "lucide-react"
 import gsap from "gsap"
+import Link from "next/link"
 
 export function IntroSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -32,9 +33,9 @@ export function IntroSection() {
           diferentes secciones para ver cada ejercicio.
         </p>
         <div className="flex justify-center">
-          <a href="#exercise1" className="flex items-center gap-2 text-gray-500 hover:text-rose-500 transition-colors">
+          <Link href="/exercise-1" className="flex items-center gap-2 text-gray-500 hover:text-rose-500 transition-colors">
             Ver ejercicios <ArrowDown className="h-4 w-4" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
