@@ -62,7 +62,7 @@ export function ExerciseContent() {
   };
 
   return (
-    <div className="p-4 md:p-8 pt-16 md:pt-8 md:ml-64">
+    <div className="p-4 md:p-8 pt-16 md:pt-8">
       <h1 className="text-2xl font-bold mb-6 animate-fade-up animate-duration-300 animate-ease-in">
         Ejemplo
       </h1>

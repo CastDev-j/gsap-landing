@@ -67,9 +67,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex min-h-screen bg-background">
+          <div className="flex min-h-screen bg-background justify-center mx-auto">
             <NavigationModal exercises={exercises} />
+            <div className="flex container lg:mx-12">
             {children}
+            </div>
           </div>
           <Footer />
         </ThemeProvider>
